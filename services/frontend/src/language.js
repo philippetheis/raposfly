@@ -9,6 +9,7 @@ import VueI18n from 'vue-i18n'
 // Languages imports
 import en from './assets/i18n/en.json'
 import fr from './assets/i18n/fr.json'
+import de from './assets/i18n/de.json'
 
 // ------------------------------------------------------------------------- //
 // CONFIGURATION                                                             //
@@ -20,7 +21,8 @@ Vue.use(VueI18n)
 // Define languages
 var messages = {
     en: en,
-    fr: fr
+    fr: fr,
+    de: de
 }
 
 export default new VueI18n({
