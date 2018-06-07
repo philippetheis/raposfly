@@ -34,6 +34,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a @click="set_lang('en')">EN</a></li>
                                     <li><a @click="set_lang('fr')">FR</a></li>
+                                    <li><a @click="set_lang('de')">DE</a></li>
                                 </ul>
                             </li>
                             <router-link :to="{name: 'admin'}" tag="li" active-class="active" exact data-toggle="collapse" data-target=".navbar-collapse.in">
